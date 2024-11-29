@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reset Password</title>
+  <!-- Bootstrap 5 CSS -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+
+    <!-- Latest compiled and minified CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+  <style>
+    .modal-content {
+      border-radius: 8px;
+    }
+
+    .otp-input {
+      display: flex;
+      justify-content: center;
+      gap: 8px;
+    }
+
+    .otp-input input {
+      width: 50px;
+      text-align: center;
+      font-size: 18px;
+    }
+  </style>
+</head>
+
+
+<body>
+
+    <div class="container-fluid mx-auto bg-danger-subtle" style="height: 100vh">
+
+ 
+
+    <div class="container-fluid mx-auto bg-danger-subtle" style="height: 100vh; padding-top: 10vh;">
+        <div class="class container row bg-light mx-auto"      style= "height: 80vh; width:80vh; ">
+            
+         <div class="class container col bg-light">
+            <img src="./cross.png" height="40px" style="padding-left: 570px; padding-top:5px ;" alt="">
+            <h1 style="padding-top: 60px; padding-left: 30px; font-size: 28px;">Reset Passsword</h1>
+
+
+            <br> <br> <br> <br>
+
+            <input class="form-control mx-auto" style="background:none; width: 40vh; border-radius: 2px;" 
+                       input type="text" name="Email Id" placeholder="Email ID or Mobile Number">
+
+            <br>
+
+
+
+            <form>
+
+
+            <div class="mb-3 mx-auto">
+              <label form="otp" class="form-label mx-auto" style="padding-left: 33vh;" >Enter OTP</label>
+              <div class="otp-input">
+                <input type="text" maxlength="1" class="form-control" />
+                <input type="text" maxlength="1" class="form-control" />
+                <input type="text" maxlength="1" class="form-control" />
+                <input type="text" maxlength="1" class="form-control" />
+              </div>
+
+              <div class="text-muted mt-2 ms-5 me-5 d-flex justify-content-between">
+                <span>00:00</span>
+                <button type="button" class="btn btn-link p-0" style="font-size: small;">Resend OTP</button>
+              </div>
+            </div>
+
+            <br> <br> 
+
+            <a href=""><input class="form-control mx-auto bg-body-secondary-subtle"style="background-color: darkgrey; color: aliceblue ;width: 40vh; border-radius: 1px;"
+                input type="Submit" value="VERIFY"></a>
+           
+          </form>
+        </div>
+
+        <hr>
+        
+      </div>
+    </div>
+</div>
+
+  <!-- Bootstrap 5 JS -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+  ></script>
+</body>
+</html>
